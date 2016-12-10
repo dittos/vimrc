@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'hachy/eva01.vim'
 
 Plug 'vim-scripts/AutoComplPop'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
