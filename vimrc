@@ -4,6 +4,7 @@ Plug 'hachy/eva01.vim'
 
 Plug 'vim-scripts/AutoComplPop'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'pangloss/vim-javascript' | Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -17,6 +18,9 @@ syn on
 
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
 set backupcopy=yes
+
+" vim-jsx
+let g:jsx_ext_required = 0
 
 colorscheme eva01
 if has("gui_macvim")
