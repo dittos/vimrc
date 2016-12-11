@@ -24,5 +24,6 @@ let g:jsx_ext_required = 0
 
 colorscheme eva01
 if has("gui_macvim")
-    set guifont=Menlo\ Regular:h14
+    set guifont=Menlo\ Regular:h13
+    set linespace=2
 endif
